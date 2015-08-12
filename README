@@ -1,0 +1,27 @@
+This is a dictionary. It has collection of words stored in a txt file. It takes these words from file and create a hash structure.
+
+structure of dictionary
+
+ hp
+ ||
+ ||
+ ||
+\  /
+ \/
+---------     _________________      ___________________
+|	|    |	               |    |			|
+|0      |--->|1st string with a|--->|2nd string with a  |--->......---> NULL
+|	|    |_________________|    |___________________|
+---------
+|	|    __________________
+|1      |--->|1st string with b|--->.........--->NULL
+|	|    |_________________|
+---------
+|	|
+|2      |--->......--->NULL
+|	|
+---------
+:
+:
+:
+and so on upto 25
